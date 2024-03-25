@@ -1,0 +1,61 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 20px;
+  background-color: #61dafbaa;
+}
+
+header > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+}
+
+.anime, .friends {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.anime ul, .friends ul {
+  list-style: none;
+  gap: 8px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+
+  margin-bottom: 1rem;
+}
+
+.anime ul li, .frieds ul li {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #61dafbaa;
+}
+
+
+main {
+  height: 100vh;
+}
+
+.dark {
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.light {
+  background-color: #ffffff;
+  color: #213547;
+}
+
+.lists {
+  display: flex;
+  gap: 20px;
+}
